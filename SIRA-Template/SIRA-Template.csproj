@@ -54,11 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="InstallerTemplate.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Plugin.cs" />
+    <Resource Include="Plugin.cs" />
     <None Include="manifest.json" />
+    <Resource Include="InstallerTemplate.cs" />
     <None Include="ProjectTemplate.csproj" />
   </ItemGroup>
   <ItemGroup>

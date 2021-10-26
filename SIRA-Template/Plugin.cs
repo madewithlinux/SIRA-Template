@@ -1,6 +1,7 @@
 ﻿using IPA;
 using SiraUtil.Zenject;
 using IPALogger = IPA.Logging.Logger;
+using $safeprojectname$.Installers;
 
 namespace $safeprojectname$
 {

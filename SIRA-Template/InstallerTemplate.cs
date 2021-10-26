@@ -1,8 +1,8 @@
 ﻿using Zenject;
 
-namespace $safeprojectname$
+namespace $safeprojectname$.Installers
 {
-    internal class InstallerTemplate : Installer
+    internal class $safeprojectname$CoreInstaller : Installer
     {
         public override void InstallBindings()
         {
