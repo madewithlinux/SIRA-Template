@@ -5,7 +5,7 @@ using $safeprojectname$.Installers;
 
 namespace $safeprojectname$
 {
-	[Plugin(RuntimeOptions.DynamicInit)]
+	[NoEnableDisable, Plugin(RuntimeOptions.DynamicInit)]
 	public class Plugin
 	{
 		[Init]
