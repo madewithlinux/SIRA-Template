@@ -5,7 +5,7 @@
   "author": "$username$",
   "version": "1.0.0",
   "description": "",
-  "gameVersion": "1.18.1",
+  "gameVersion": "1.19.0",
   "dependsOn": {
     "BSIPA": "^4.2.1",
     "SiraUtil": "^3.0.0"
