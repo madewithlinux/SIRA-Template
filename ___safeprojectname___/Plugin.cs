@@ -1,9 +1,9 @@
 ﻿using IPA;
 using SiraUtil.Zenject;
 using IPALogger = IPA.Logging.Logger;
-using $safeprojectname$.Installers;
+using ___safeprojectname___.Installers;
 
-namespace $safeprojectname$
+namespace ___safeprojectname___
 {
 	[NoEnableDisable, Plugin(RuntimeOptions.DynamicInit)]
 	public class Plugin
@@ -12,7 +12,7 @@ namespace $safeprojectname$
 		public Plugin(IPALogger logger, Zenjector zenjector)
 		{
 			zenjector.UseLogger(logger);
-			zenjector.Install<$safeprojectname$CoreInstaller>(Location.App);
+			zenjector.Install<___safeprojectname___CoreInstaller>(Location.App);
 		}
 	}
 }

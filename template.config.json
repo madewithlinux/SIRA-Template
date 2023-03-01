@@ -1,0 +1,13 @@
+{
+    "name": "SIRA-Template-vscode",
+    "variables": [
+        {
+            "name": "safeprojectname",
+            "style": {
+                "noTransformation": true
+            }
+        }
+    ],
+    "ignore": [".git", ".history"],
+    "allowExistingFolder": true
+}

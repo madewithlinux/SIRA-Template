@@ -1,7 +1,7 @@
 ﻿{
   "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
-  "id": "$safeprojectname$",
-  "name": "$projectname$",
+  "id": "___safeprojectname___",
+  "name": "___safeprojectname___",
   "author": "$username$",
   "version": "1.0.0",
   "description": "",

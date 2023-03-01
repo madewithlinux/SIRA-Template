@@ -10,8 +10,8 @@
 		<BeatSaberDir>$(LocalRefsDir)</BeatSaberDir>
 		<AppOutputBase>$(MSBuildProjectDirectory)\</AppOutputBase>
 		<Copyright>Copyright © $username$ $year$</Copyright>
-		<AssemblyName>$safeprojectname$</AssemblyName>
-		<RootNamespace>$safeprojectname$</RootNamespace>
+		<AssemblyName>___safeprojectname___</AssemblyName>
+		<RootNamespace>___safeprojectname___</RootNamespace>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	</PropertyGroup>
 
@@ -136,7 +136,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="$safeprojectname$.csproj.user" Condition="Exists('$safeprojectname$.csproj.user')" Visible="false" />
+		<None Include="___safeprojectname___.csproj.user" Condition="Exists('___safeprojectname___.csproj.user')" Visible="false" />
 	</ItemGroup>
 
 	<ItemGroup>
